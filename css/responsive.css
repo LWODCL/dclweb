@@ -1,0 +1,89 @@
+/* ===========================
+ *	layout
+ * =========================== */
+/*@media (max-width: 1366px) {
+	.wrapper{width: 1100px}
+}
+@media (min-width: 1367px){
+	.wrapper{width: 1300px}
+}*/
+/* ===========================
+ *	Page 1
+ * =========================== */
+@media (max-width: 1200px) {
+	#page-1 .modules-box{
+		height: 40px;
+	}
+}
+@media (max-width: 1366px) {
+	#page-1 .modules-box.on{
+		padding: 0;
+	}
+}
+@media (max-width: 1100px) {
+	.p1-banner{
+		width: 1100px;
+	}
+}
+/* ===========================
+ *	Page 2
+ * =========================== */
+@media (max-width: 1366px) {
+	.p2-banner{-webkit-transform: scale(.7);
+		-moz-transform: scale(.7);
+		-ms-transform: scale(.7);
+		-o-transform: scale(.7);
+		transform: scale(.7);
+	}
+}
+/* ===========================
+ *	Page 3
+ * =========================== */
+@media (max-width: 1366px) {
+	#page-3 .timeline{
+		margin-top: 100px;
+	}
+	#page-3 .introduction{
+		margin-top: 40px;
+	}
+}
+/* ===========================
+ *	Page 4
+ * =========================== */
+@media (max-width: 1366px) {
+	.p4-banner{-webkit-transform: scale(.7);
+		-moz-transform: scale(.7);
+		-ms-transform: scale(.7);
+		-o-transform: scale(.7);
+		transform: scale(.7);
+	}
+	.page4-inner{
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 1367px) and (max-width: 1440px){
+	.p4-banner{-webkit-transform: scale(.8);
+		-moz-transform: scale(.8);
+		-ms-transform: scale(.8);
+		-o-transform: scale(.8);
+		transform: scale(.8);
+	}
+}
+/* ===========================
+ *	Page Partner
+ * =========================== */
+@media (max-width: 1366px) {
+	.p-partner .banner{
+		-webkit-transform: scale(.75);
+		-moz-transform: scale(.75);
+		-ms-transform: scale(.7);
+		-o-transform: scale(.75);
+	}
+}
+/*@media (min-width: 1367px) and (max-width: 1440px){
+	.p5-banner{-webkit-transform: scale(.8);
+		-moz-transform: scale(.8);
+		-ms-transform: scale(.8);
+		-o-transform: scale(.8);
+	}
+}*/

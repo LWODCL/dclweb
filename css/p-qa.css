@@ -1,0 +1,14 @@
+.p-qa{background-color: #fff}
+.p-qa .left{float: left;}
+.p-qa .right{float: right;}
+.p-qa .left, .p-qa .right{width: 50%}
+.p-qa .inner{margin: 20px;}
+.p-qa .ctn{border-top: 1px solid #ccc; margin-top: 10px;}
+.p-qa dl{margin-bottom: 30px;-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-o-transition: all .5s ease;
+transition: all .5s ease;opacity: 0; position: relative; top: 40px;}
+.p-qa dt{font-size: 1.1em;font-weight: bold; color: #168D4A;margin-bottom:5px;}
+.p-qa dd{font-size: 1.1em; color: #313131; line-height: 20px;}
+.p-qa dl.active{top: 0; opacity: 1}
