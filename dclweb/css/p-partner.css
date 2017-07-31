@@ -1,0 +1,104 @@
+.p-partner{
+	background: #000 url(../images/bg-3.png) center center no-repeat;
+	text-align: center;
+}
+.p-partner h1 {
+	color: #fff;
+}
+.p-partner .banner{
+	height: 400px;
+	width: 1300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -650px;
+	top: 50%;
+	margin-top: -220px;
+}
+.p-partner .banner .logo{
+	display: block;
+	width: 120px;
+	height: 120px;
+	background-image: url(../images/p5.png);
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transform: scale(.2);
+	-moz-transform: scale(.2);
+	-ms-transform: scale(.2);
+	-o-transform: scale(.2);
+	transform: scale(.2);
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.p-partner .banner .active{
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+.p-partner .banner .logo:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.p-partner .banner ul{
+	text-align: center;
+}
+.p-partner .banner li{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	float: left;
+	margin: 0 98px 98px 98px;
+}
+.p-partner .banner li a{
+	display: block;
+	width: 100%;
+	padding-top: 120px;
+	cursor: default;
+	text-decoration: none;
+	font-size: 20px;
+}
+.p-partner .logo-0{
+	background-position: 0 0;
+}
+.p-partner .logo-1{
+	background-position: -121px 0;
+}
+.p-partner .logo-2{
+	background-position: -242px 0;
+}
+.p-partner .logo-3{
+	background-position: -363px 0;
+}
+.p-partner .logo-4{
+	background-position: 0 -121px;
+}
+.p-partner .logo-5{
+	background-position: -121px -121px;
+}
+.p-partner .logo-6{
+	background-position: -242px -121px;
+}
+.p-partner .logo-7{
+	background-position: -363px -121px;
+}
+.p-partner .logo-8{
+	background-position: 0 -242px;
+}
+.p-partner .logo-9{
+	background-position: -121px -242px;
+}
+.p-partner .logo-10{
+	background-position: -242px -242px;
+}
+.p-partner .logo-11{
+	background-position: -363px -242px;
+}

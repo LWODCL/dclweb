@@ -1,0 +1,40 @@
+.p-contact .top {
+	text-align: center;
+	height: 60%;
+	background: #fff;
+}
+.p-contact .main {
+	height: 40%;
+}
+.p-contact .main h2{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.p-contact .main p{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.p-contact .main .border{
+	height: 6px;
+	background: url(../images/p6-border.png) 0 0 repeat;
+}
+.p-contact .main img{
+	width: 132px;
+	margin-bottom: 10px;
+}
+.p-contact .main .cell-left{
+	float: left;
+	margin-right: 20px;
+}
+.p-contact .main .cell-right{
+	float: right;
+	margin-top: 50px;
+}
+.p-contact .main .cell-right p{
+	font-size: 12px;
+	margin-top: 0;
+}
+.p-contact .wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
